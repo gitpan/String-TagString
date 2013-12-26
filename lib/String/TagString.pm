@@ -1,8 +1,10 @@
 use warnings;
 use strict;
 package String::TagString;
+{
+  $String::TagString::VERSION = '0.005';
+}
 # ABSTRACT: parse and emit tag strings (including tags with values)
-our $VERSION = '0.003';
 
 
 sub _raw_tag_name_re  { qr{@?(?:\pL|[\d_.*])(?:\pL|[-\d_.*])*} }
@@ -99,13 +101,15 @@ __END__
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 String::TagString - parse and emit tag strings (including tags with values)
 
 =head1 VERSION
 
-version 0.004
+version 0.005
 
 =head1 SYNOPSIS
 

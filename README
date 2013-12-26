@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution String-TagString,
-version 0.004:
+version 0.005:
 
   parse and emit tag strings (including tags with values)
 
